@@ -14,7 +14,7 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        print(TAG + "+++ viewDidLoad");
+        print(TAG + "[02]. +++ viewDidLoad");
         // Do any additional setup after loading the view, typically from a nib.
     }
     
@@ -26,30 +26,30 @@ class ViewController: UIViewController {
     
     override func viewWillLayoutSubviews() {
         super.viewWillLayoutSubviews();
-        print(TAG + "+++ viewWillLayoutSubviews");
+        print(TAG + "[04]. +++ viewWillLayoutSubviews");
     }
     
     override func viewDidLayoutSubviews() {
         super.viewDidLayoutSubviews();
-        print(TAG + "--- viewDidLayoutSubviews");
+        print(TAG + "[05]. --- viewDidLayoutSubviews");
     }
     
     override func viewWillAppear(_ animated: Bool) {
         super.viewWillAppear(animated);
-        print(TAG + "+++ viewWillAppear");
+        print(TAG + "[03]. +++ viewWillAppear");
     }
     override func viewDidAppear(_ animated: Bool) {
         super.viewDidAppear(animated);
-        print(TAG + "--- viewDidAppear");
+        print(TAG + "[06]. --- viewDidAppear");
     }
     
     override func viewWillDisappear(_ animated: Bool) {
         super.viewWillDisappear(animated);
-        print(TAG + "+++ viewWillDisappear");
+        print(TAG + "[08]. +++ viewWillDisappear");
     }
     override func viewDidDisappear(_ animated: Bool) {
         super.viewDidDisappear(animated);
-        print(TAG + "--- viewDidDisappear");
+        print(TAG + "[09]. --- viewDidDisappear");
     }
     
     override func viewWillTransition(to size: CGSize, with coordinator: UIViewControllerTransitionCoordinator) {
