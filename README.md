@@ -76,11 +76,11 @@ AppDelegate: >> [10]. applicationDidBecomeActive
 
 The project includes educational slides that explain:
 
-<img src="./images/Slide1.png" width="400" alt="iOS App Lifecycle Overview">
-<img src="./images/Slide2.png" width="400" alt="AppDelegate Methods">
-<img src="./images/Slide3.png" width="400" alt="ViewController Methods">
-<img src="./images/Slide4.png" width="400" alt="State Transitions">
-<img src="./images/Slide5.png" width="400" alt="Lifecycle Flow">
+<img src="./images/Slide1.png" alt="iOS App Lifecycle Overview">
+<img src="./images/Slide2.png" alt="AppDelegate Methods">
+<img src="./images/Slide3.png" alt="ViewController Methods">
+<img src="./images/Slide4.png" alt="State Transitions">
+<img src="./images/Slide5.png" alt="Lifecycle Flow">
 
 ## Requirements
 
